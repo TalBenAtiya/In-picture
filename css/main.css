@@ -1,0 +1,95 @@
+h1 {
+font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 39.5%;
+}
+
+
+.box {
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(214, 54, 115);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 10px solid rgb(121, 29, 65);
+}
+
+
+img {
+    height: 300px;
+    display: block;
+    margin-left: 33%;
+}
+
+button {
+    width: 200;
+    height: 70px;
+    position: absolute;
+    font-size: larger;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    border: none;
+}
+
+.button0 {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.button1 {
+    margin-left: 500px;
+    margin-top: 30px;
+    
+}
+
+.button2{
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+
+
+.repeat {
+    background-color: cornflowerblue;;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    display: none;
+    left: 1060px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+
+.repeat button{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80px;
+    left: 95px;
+    width: 200px;
+    height: 50px;
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 135px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    left: 1155;
+    top: 680px
+}
